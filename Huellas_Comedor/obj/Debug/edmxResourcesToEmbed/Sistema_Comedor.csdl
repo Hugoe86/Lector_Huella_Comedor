@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Sistema_ComedorModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cat_Empleados_Huellas">
+    <Key>
+      <PropertyRef Name="Huella_ID" />
+    </Key>
+    <Property Name="Huella_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Empleado_ID" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="No_Tarjeta" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Huella_Digital" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Huella_Ruta" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Imagen" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityContainer Name="Sistema_ComedorEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cat_Empleados_Huellas" EntityType="Self.Cat_Empleados_Huellas" />
+  </EntityContainer>
+</Schema>

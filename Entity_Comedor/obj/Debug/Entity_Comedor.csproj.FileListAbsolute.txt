@@ -1,0 +1,11 @@
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Entity_Comedor\bin\Debug\Entity_Comedor.dll.config
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Entity_Comedor\bin\Debug\Entity_Comedor.dll
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Entity_Comedor\bin\Debug\Entity_Comedor.pdb
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Entity_Comedor\bin\Debug\EntityFramework.dll
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Entity_Comedor\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Entity_Comedor\bin\Debug\EntityFramework.xml
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Entity_Comedor\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Entity_Comedor\obj\Debug\Entity_Comedor.csproj.CoreCompileInputs.cache
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Entity_Comedor\obj\Debug\Entity_Comedor.csproj.CopyComplete
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Entity_Comedor\obj\Debug\Entity_Comedor.dll
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Entity_Comedor\obj\Debug\Entity_Comedor.pdb

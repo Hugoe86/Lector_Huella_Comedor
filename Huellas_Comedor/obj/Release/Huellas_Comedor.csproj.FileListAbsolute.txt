@@ -1,0 +1,17 @@
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\bin\Release\Huellas_Comedor.dll.config
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\bin\Release\Huellas_Comedor.dll
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\bin\Release\Huellas_Comedor.pdb
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\bin\Release\Huellas_Comedor.tlb
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\bin\Release\DPFPDevNET.dll
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\bin\Release\DPFPEngNET.dll
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\bin\Release\DPFPShrNET.dll
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\bin\Release\DPFPVerNET.dll
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\bin\Release\EntityFramework.dll
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\bin\Release\EntityFramework.xml
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\obj\Release\Huellas_Comedor.csproj.AssemblyReference.cache
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\obj\Release\Huellas_Comedor.csproj.CoreCompileInputs.cache
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\obj\Release\Huellas_Comedor.csproj.CopyComplete
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\obj\Release\Huellas_Comedor.dll
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Comedor\Huellas_Comedor\obj\Release\Huellas_Comedor.pdb

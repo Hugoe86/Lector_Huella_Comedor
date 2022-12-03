@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Sistema_ComedorModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cat_Empleados_Huellas">
+    <Key>
+      <PropertyRef Name="Huella_ID" />
+    </Key>
+    <Property Name="Huella_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Empleado_ID" Type="char" MaxLength="5" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="No_Tarjeta" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="Huella_Digital" Type="varbinary(max)" />
+    <Property Name="Huella_Ruta" Type="varchar" MaxLength="250" />
+    <Property Name="Imagen" Type="image" />
+  </EntityType>
+  <EntityContainer Name="Sistema_ComedorModelStoreContainer">
+    <EntitySet Name="Cat_Empleados_Huellas" EntityType="Self.Cat_Empleados_Huellas" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
