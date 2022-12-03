@@ -184,11 +184,5 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <ProjectReference Include="..\Huellas_Comedor\Huellas_Comedor.csproj">
-      <Project>{b8e1aa56-b63c-4527-909c-41c4145a67c2}</Project>
-      <Name>Huellas_Comedor</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,6 @@
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Validador\Huellas_Bites\bin\Release\Huellas_Bites.dll
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Validador\Huellas_Bites\bin\Release\Huellas_Bites.pdb
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Validador\Huellas_Bites\bin\Release\Huellas_Bites.tlb
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Validador\Huellas_Bites\obj\Release\Huellas_Bites.csproj.CoreCompileInputs.cache
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Validador\Huellas_Bites\obj\Release\Huellas_Bites.dll
+C:\Users\Hugo.Ramirez\source\repos\Huellas_Validador\Huellas_Bites\obj\Release\Huellas_Bites.pdb

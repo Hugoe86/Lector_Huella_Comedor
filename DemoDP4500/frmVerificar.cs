@@ -45,41 +45,37 @@ namespace DemoDP4500
             decimal suma = 0;
 
 
-            //id = Imagenes_Comedor.Verificar_Huella_Empleado(Sample);
-            id = Huellas_Comedor.Verificador.Verificar(Sample);
 
-            MakeReport("ID. " + id);
+            // Process the sample and create a feature set for the enrollment purpose.
+            DPFP.FeatureSet features = ExtractFeatures(Sample, DPFP.Processing.DataPurpose.Verification);
 
-            //// Process the sample and create a feature set for the enrollment purpose.
-            //DPFP.FeatureSet features = ExtractFeatures(Sample, DPFP.Processing.DataPurpose.Verification);
+            // Check quality of the sample and start verification if it's good
+            // TODO: move to a separate task
+            if (features != null)
+            {
+                // Compare the feature set with our template
+                DPFP.Verification.Verification.Result result = new DPFP.Verification.Verification.Result();
 
-            //// Check quality of the sample and start verification if it's good
-            //// TODO: move to a separate task
-            //if (features != null)
-            //{
-            //    // Compare the feature set with our template
-            //    DPFP.Verification.Verification.Result result = new DPFP.Verification.Verification.Result();
+                DPFP.Template template = new DPFP.Template();
+                Stream stream;
 
-            //    DPFP.Template template = new DPFP.Template();
-            //    Stream stream;
+                foreach (var emp in contexto.Cat_Empleados_Huellas)
+                {
+                    stream = new MemoryStream(emp.Huella_Digital);
+                    template = new DPFP.Template(stream);
 
-            //    foreach (var emp in contexto.Cat_Empleados_Huellas)
-            //    {
-            //        stream = new MemoryStream(emp.Huella_Digital);
-            //        template = new DPFP.Template(stream);
-
-            //        Verificator.Verify(features, template, ref result);
-            //        UpdateStatus(result.FARAchieved);
-            //        if (result.Verified)
-            //        {
-            //            MakeReport("The fingerprint was VERIFIED. " + emp.Huella_ID);
-            //            break;
-            //        }
-            //    }
+                    Verificator.Verify(features, template, ref result);
+                    UpdateStatus(result.FARAchieved);
+                    if (result.Verified)
+                    {
+                        MakeReport("The fingerprint was VERIFIED. " + emp.Huella_ID);
+                        break;
+                    }
+                }
 
 
 
-            //}
+            }
         }
 
         public frmVerificar()
